@@ -1,0 +1,144 @@
+
+
+body {
+    color: #fff;
+    background: #1b1f24;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+
+
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 16px;
+    transition: all .50s ease;
+
+}
+h1{
+    font-size: 1.9rem;
+    line-height: 2em;
+    margin-left: 8px;
+
+
+}
+h2{
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+
+.about-text h3 {
+    font-size: 1rem;
+    line-height: 2em;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.about-text h3 span{
+    color: #13bbff;
+    font-size: 1rem;
+
+}
+.about-text img{
+    width: 100%;
+    height: 445px;
+    max-width: 445px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid beige;
+    box-shadow: 0 0 30px #13bbff;
+    animation: rotate 5s infinite linear;
+    display: grid;
+    margin-left: 55%;
+
+}
+.exp-area li span{
+    color: beige;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 100em;
+
+
+}
+
+
+.exp-area-1{
+    margin-bottom: 45px;
+    list-style: none; /* Ta bort punktlistestilen från ul */
+    padding: 0; /* Ta bort standardinpadding från ul */
+    margin-top: -200px;
+
+
+}
+
+
+.exp-area li {
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    white-space: pre-line; /* Bevara radbrytningar */
+    margin-left: 8px;
+
+
+}
+
+.exp-area li span {
+    color: beige; /* Behåll den färg du vill ha här */
+    font-size: 1.0rem;
+    font-weight: 300;
+    margin-left: 1px;
+    line-height: 1.5em;
+
+}
+
+.exp-area li.exp-2, li.exp-3, li.exp-4 {
+    margin-top: 20px;
+
+}
+.exp-2{
+    color: beige;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 8px;
+
+}
+.exp-3{
+    color: beige;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.exp-4{
+    color: beige;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 8px;
+
+}
+.Rf{
+    font-size: 0.9rem;
+    list-style: none; /* Ta bort punktlistestilen från ul */
+    padding: 0; /* Ta bort standardinpadding från ul */
+    margin-left: 8px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
