@@ -1,16 +1,8 @@
-
-
 body {
     color: #fff;
     background: #1b1f24;
     margin: 0;
     font-family: 'Arial', sans-serif;
-
-
-}
-
-h1, h2, h3 {
-    margin: 0;
 }
 
 header {
@@ -26,30 +18,34 @@ header {
     transition: all .50s ease;
 
 }
-h1{
+
+h1 {
     font-size: 1.9rem;
-    line-height: 2em;
+    line-height: 1em;
     margin-left: 8px;
 
-
-}
-h2{
-    font-size: 1.2rem;
-    margin-left: 8px;
 }
 
-.about-text h3 {
+h2 {
+    font-size: 1.1rem;
+    margin-left:8px;
+
+}
+
+h3 {
     font-size: 1rem;
-    line-height: 2em;
-    margin-bottom: 10px;
+    line-height: 3em;
+    margin-bottom: 0;
     margin-left: 8px;
 }
-.about-text h3 span{
+
+h3 span {
     color: #13bbff;
     font-size: 1rem;
-
+    padding-left: 1px;
 }
-.about-text img{
+
+.about-text img {
     width: 100%;
     height: 445px;
     max-width: 445px;
@@ -58,80 +54,68 @@ h2{
     border: 7px solid beige;
     box-shadow: 0 0 30px #13bbff;
     animation: rotate 5s infinite linear;
-    display: grid;
+    display: inline-block;
     margin-left: 55%;
-
+    margin-top: -156px;
 }
-.exp-area li span{
+
+.about-text li span {
     color: beige;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 100em;
 
-
 }
 
-
-.exp-area-1{
+.exp-area-1 {
     margin-bottom: 45px;
-    list-style: none; /* Ta bort punktlistestilen från ul */
-    padding: 0; /* Ta bort standardinpadding från ul */
-    margin-top: -200px;
+    list-style: none;
+    padding: 0;
+    margin-top: -300px;
+    line-height:40px ;
+   margin-left: 8px;
 
+}
+.about-text li.exp-2 li.exp-3 li.exp-4{
+    margin-top: 80em;
 
 }
 
-
-.exp-area li {
-    color: #fff;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 30px;
-    white-space: pre-line; /* Bevara radbrytningar */
+.exp-2 {
+    color: beige;
+    font-size: 0.9rem;
+    font-weight: 400;
     margin-left: 8px;
-
-
-}
-
-.exp-area li span {
-    color: beige; /* Behåll den färg du vill ha här */
-    font-size: 1.0rem;
-    font-weight: 300;
-    margin-left: 1px;
-    line-height: 1.5em;
+    margin-top: 65px;
 
 }
 
-.exp-area li.exp-2, li.exp-3, li.exp-4 {
-    margin-top: 20px;
-
+.exp-3 {
+    color: beige;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 8px;
+    margin-top: 10px;
 }
-.exp-2{
+
+.exp-4 {
     color: beige;
     font-size: 0.9rem;
     font-weight: 400;
     margin-left: 8px;
 
-}
-.exp-3{
-    color: beige;
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin-left: 8px;
-}
-.exp-4{
-    color: beige;
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin-left: 8px;
 
 }
+
 .Rf{
+    color: beige;
     font-size: 0.9rem;
-    list-style: none; /* Ta bort punktlistestilen från ul */
-    padding: 0; /* Ta bort standardinpadding från ul */
-    margin-left: 8px;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 8rem;
+
 }
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
@@ -140,5 +124,6 @@ h2{
         transform: rotate(360deg);
     }
 }
+
 
 

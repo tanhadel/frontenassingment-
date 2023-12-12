@@ -9,5 +9,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="remixicon" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
+    <orderEntry type="library" name="remixicon" level="application" />
+    <orderEntry type="library" name="boxicons" level="application" />
   </component>
 </module>

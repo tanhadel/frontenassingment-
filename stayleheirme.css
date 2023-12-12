@@ -1,0 +1,23 @@
+body {
+    color: #fff;
+    background: #1b1f24;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.heirme h1{
+  color: white;
+    font-size: 45px;
+    font-weight: 400;
+}
+.heirme{
+    color: beige;
+    font-size: 15px;
+    margin-left: 8px;
+
+}
+.heirme div{
+    font-size: 15px;
+    line-height: 1.5rem;
+
+}

@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;600&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SignWriting&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <!----js link ---->
@@ -40,7 +41,7 @@
 </header>
 <!----hero ---->
 <section class="hero" id="home" >
-    <div class="main-contact">
+    <div class="main-contact" data-aos="fade-in">
         <h4>Hi, friend</h4>
         <h1>I am <span>Taha Taheri</span></h1>
         <p>I am a web developer student, in my first term highter vocational education.
@@ -63,15 +64,15 @@
 </section>
 <!----about me ---->
 <section class="about" id="about " >
-    <div class="about-img">
+    <div class="about-img" data-aos="zoom-in-down">
         <img src="img/tahas_bild.png">
 
 
 
     </div>
-    <div class="about-text">
+    <div class="about-text" data-aos="zoom-in-up">
         <h2> I am a web developer<span> student </span></h2>
-        <div class="exp-area" >
+        <div class="exp-area">
             <p class="exp">
                 Experience, <span>5 Years of service job.</span>
 
@@ -101,10 +102,10 @@
 </section>
 <!----service--->
 <section class="services" id="services" >
-    <div class="center-text">
+    <div class="center-text" data-aos="fade-down">
         <h2>My <span>services</span></h2>
     </div>
-    <div class="services-content">
+    <div class="services-content" data-aos="zoom-in-up">
         <div class="box">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-24-hours" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -161,10 +162,10 @@
 </section>
 <!-----Portfolio-->
 <section class="portfolio" id="portfolio">
-    <div class="center-text">
+    <div class="center-text" data-aos="fade-down">
         <h2>My <span>portfolio</span></h2>
     </div>
-    <div class=" portfolio-content">
+    <div class=" portfolio-content" data-aos="zoom-in-up">
         <div class="row">
             <img src="img/portfolio-1.webp">
             <div class="main-row">
@@ -258,10 +259,10 @@
 </section>
 <!-----contact-->
 <section class="contact" id="contact">
-    <div class="center-text">
+    <div class="center-text" data-aos="fade-down">
         <h2>Contact<span>Me</span></h2>
     </div >
-    <div class="contact-form">
+    <div class="contact-form" data-aos="zoom-in">
       <form action="">
           <input type="text" placeholder="You are name" required>
           <input type="email" placeholder="Email Address" required>
@@ -279,5 +280,14 @@
     </div>
 <!-----js link-->
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 300,
+        duration:1400,
+
+    });
+</script>
+
 </body>
 </html>
